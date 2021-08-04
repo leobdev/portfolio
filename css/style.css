@@ -399,3 +399,11 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
+#card {
+  color: black;
+}
+
+.card-body>p {
+  color: black;
+}
