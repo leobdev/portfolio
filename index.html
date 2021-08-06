@@ -424,7 +424,6 @@
               <sm>CONTACT FORM</sm>
             </p>
             <form class="contact-form php-mail-form" role="form" id="form">
-
               <div class="form-group">
                 <label for="contact-name">Your Name</label>
                 <input type="name" name="from_name" class="form-control" id="contact-name" placeholder="Your Name"
@@ -450,7 +449,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-send">
-                <button type="submit" class="btn btn-large" id="button">Send Message</button>
+                <button type="submit" class="btn btn-large" id="submit">Send Message</button>
               </div>
             </form>
           </div>
@@ -734,10 +733,11 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
   <script type="text/javascript">
-    emailjs.init('user_kRS1T3JUlPG2jB6E3XSI2')
+    emailjs.init('user_kRS1T3JUlPG2jB6E3XSI2');
   </script>
 
   <script src="js/site.js"></script>
+
 
 
 </body>
