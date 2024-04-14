@@ -378,15 +378,21 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 centered">
           <a href="javascript:void(0);" data-toggle="modal" data-target="#bugtracker-modal">
-            <img class="img-responsive" src="/img/eFluo-logo.png" alt="">
+            <img class="img-responsive" src="/img/eFluo-logo.png" height="500" alt="">
             <h2 class="text-center">Ticket Manager</h2>
           </a>
           <br>
         </div>
         <div class="col-lg-4 col-md-6 centered">
           <a href="javascript:void(0);" data-toggle="modal" data-target="#aichef-modal">
-            <img class="img-responsive" src="/img/aichef.PNG" alt="">
+            <img class="img-responsive" src="/img/aichef.PNG" height="500" alt="">
             <h2 class="text-center">AI Chef</h2>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 centered">
+          <a href="javascript:void(0);" data-toggle="modal" data-target="#moviesnap-modal">
+            <img class="img-responsive" src="/img/MovieSnap1.jpg" height="500" alt="">
+            <h2 class="text-center">MovieSnap</h2>
           </a>
         </div>
         <!--   <div class="col-lg-4 col-md-6 centered">
@@ -454,7 +460,7 @@
               <t>Email</t><br /> leocoding.net@gmail.com <br />
             </p>
             <p>
-              <t>Adress</t><br /> Katy, TX <br /> 77450 <br />
+              <t>Adress</t><br /> Katy, TX 77450
             </p>
 
           </div>
@@ -563,6 +569,41 @@
             </a>
           </button>
           <a class="btn btn-primary" href="https://aichefclient.azurewebsites.net/" target="_blank" role="button">
+            Go To The App
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="moviesnap-modal" tabindex="-1" role="dialog" aria-labelledby="moviesnap-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">AI Chef</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="/img/moviesnap_screenshot.PNG" height="500" class="img-responsive">
+          <h4>MovieSnap is a Blazor web app that shows images, description and ratings of popular movies. It's deployed
+            as Static Web App in Azure.
+            <br /><br />
+            Tech stack used: <br />
+            <b>Blazor WASM, Azure, TMDB API.</b>
+          </h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <a>
+              Close
+            </a>
+          </button>
+          <a class="btn btn-primary" href="https://wonderful-pond-04c143710-preview.centralus.5.azurestaticapps.net/"
+            target="_blank" role="button">
             Go To The App
           </a>
         </div>
@@ -792,7 +833,7 @@
   <script src="js/site.js"></script>
 
   <!--Blog API section-->
-  <script src="/js/blogapi.js"></script>
+  <!--<script src="/js/blogapi.js"></script>-->
 
 
 </body>
