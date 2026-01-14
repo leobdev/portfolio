@@ -407,3 +407,45 @@ sm {
 .card-body>p {
   color: black;
 }
+
+/* Project thumbnails and modal image sizing */
+.project-thumb {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.modal-img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .project-thumb {
+    max-height: 180px;
+    /* ensure full image shows on small screens */
+  }
+}
+
+/* Utility: center content on small screens */
+.center-mobile {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .center-mobile {
+    text-align: center !important;
+  }
+  .center-mobile .btn {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
