@@ -22,7 +22,7 @@
 
   <!-- Favicons -->
   <link href="/img/favicon-32x32.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700"
@@ -55,12 +55,12 @@
                 </a>
               </li>
               <li class="menu-item">
-                <a class="smothscroll" href="#work" title="Works">
+                <a class="smoothscroll" href="#work" title="Works">
                   <i class="fa fa-briefcase"></i>
                 </a>
               </li>
               <li class="menu-item">
-                <a class="smothscroll" href="#contact" title="Contact">
+                <a class="smoothscroll" href="#contact" title="Contact">
                   <i class="fa fa-envelope"></i>
                 </a>
               </li>
@@ -237,11 +237,11 @@ My focus is building modern systems with features like authentication/authorizat
             </div>
           <div class="col-lg-3 col-md-6 col-sm-4 centered">
               <img src="https://swimburger.net/media/fbqnp2ie/azure.svg" />
-              <p class="">Azure</p>
+              <p class="text-center">Azure</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-4 centered">
               <img src="https://img.icons8.com/color/144/000000/javascript.png" />
-              <p class="">Javascript</p>
+              <p class="text-center">Javascript</p>
             </div>
           </div>
         </div>
@@ -252,7 +252,7 @@ My focus is building modern systems with features like authentication/authorizat
               <p class="text-center">Bootstrap</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-4 centered">
-              <img height="" src="https://img.icons8.com/color/144/000000/html-5--v1.png" />
+              <img src="https://img.icons8.com/color/144/000000/html-5--v1.png" />
               <p class="text-center">HTML</p>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-4 centered">
@@ -313,8 +313,6 @@ My focus is building modern systems with features like authentication/authorizat
   </section>
   <hr>
 
-  <!---->>
-  </section>
 
   <!--PORTFOLIO DESCRIPTION -->
   <section name="portfolio">
@@ -345,7 +343,7 @@ My focus is building modern systems with features like authentication/authorizat
           </a>
         </div>
         <div class="col-6 col-md-4 col-lg-3 centered">
-          <a href="javascript:void(0);" data-toggle="modal" data-target="#tacocat-modal">
+          <a href="javascript:void(0);" data-toggle="modal" data-target="#blog-modal">
             <img class="img-fluid project-thumb" src="/img/of_bugs_and_devs.png" alt="Of Bugs & Devs">
             <h2 class="text-center">Of Bugs & Devs</h2>
           </a>
@@ -377,7 +375,7 @@ My focus is building modern systems with features like authentication/authorizat
               <t>Email</t><br /> leocoding.net@gmail.com <br />
             </p>
             <p>
-              <t>Adress</t><br /> Katy, TX 77450
+              <t>Address</t><br /> Katy, TX 77450
             </p>
 
           </div>
@@ -422,6 +420,7 @@ My focus is building modern systems with features like authentication/authorizat
     </div>
     <!--/ #footer -->
   </section>
+
   <!-- Modal -->
   <div class="modal fade" id="bugtracker-modal" tabindex="-1" role="dialog" aria-labelledby="bugtracker-modal"
     aria-hidden="true">
@@ -437,7 +436,7 @@ My focus is building modern systems with features like authentication/authorizat
           <img src="/img/provsolv-1.PNG" class="img-fluid modal-img" alt="eFluo screenshot">
           <br />
           <br />
-          <h4>eFluo is a multi-tenancy web app that helps developers tracking bugs in their software throught the
+          <h4>eFluo is a multi-tenancy web app that helps developers tracking bugs in their software through the
             creation of tickets and manage different types of projects with assigned developers per project.
             <br />
             <br />
@@ -499,7 +498,7 @@ My focus is building modern systems with features like authentication/authorizat
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">AI Chef</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle">MovieSnap</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -568,13 +567,18 @@ My focus is building modern systems with features like authentication/authorizat
           </button>
         </div>
         <div class="modal-body">
-          <img src="img/blog-ss.png" class="img-fluid modal-img" alt="Blog screenshot">
-          <h4>Of Bugs And Devs is a web app made using .NET framework, C# in the back-end, Bootstrap/HTML/CSS in the front-end and
-            SQL Server for data base deployed in Azure.
+          <img src="/img/blog-ss.png" class="img-fluid modal-img" alt="Blog screenshot">
+           <h4 class="mb-2">
+          <strong>Of Bugs And Devs</strong> is my personal blog built with
+          <strong>.NET</strong> using <strong>Blazor Web App (SSR)</strong> with
+          <strong>Interactive Server</strong> components.
+           </h4>
 
-            It holds posts from me, coverging different coding and tech-related topics, as well as my journey in the
-            industry.
-          </h4>
+        <h4 class="mb-0">
+          I use it to share real-world developer lessons, write about software engineering topics,
+          and document my journey as a .NET developer—covering everything from architecture and clean code
+          to debugging, Azure, and productivity.
+        </h4>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">
@@ -582,7 +586,7 @@ My focus is building modern systems with features like authentication/authorizat
               Close
             </a>
           </button>
-          <a class="btn btn-primary" href="https://its-myblog.herokuapp.com/" target="_blank" role="button">
+          <a class="btn btn-primary" href="https://ofbugsanddevs-d5enescpgdesf9aj.centralus-01.azurewebsites.net/" target="_blank" role="button">
             Go To The App
           </a>
         </div>
@@ -600,7 +604,7 @@ My focus is building modern systems with features like authentication/authorizat
           </button>
         </div>
         <div class="modal-body">
-          <img src="img/mort-ss.png" class="img-fluid modal-img" alt="Mortgage calculator screenshot">
+          <img src="/img/mort-ss.png" class="img-fluid modal-img" alt="Mortgage calculator screenshot">
           <h4>Mortgage Calculator is a web app built using JavaScript for mathematic calculations through
             object-oriented principles and using local storage in browser. Also using dynamic tables in HTML to display
             financial information.
@@ -628,17 +632,15 @@ My focus is building modern systems with features like authentication/authorizat
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">Mortgage Calculator</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle">Todo App</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <img src="img/todo-ss.png" class="img-fluid modal-img" alt="Todo app screenshot">
-          <h4>Mortgage Calculator is a web app built using JavaScript for mathematic calculations through
-            object-oriented principles and using local storage in browser. Also using dynamic tables in HTML to
-            display
-            financial information.
+          <img src="/img/todo-ss.png" class="img-fluid modal-img" alt="Todo app screenshot">
+          <h4>A simple and elegant Todo App built with JavaScript, featuring task management with local storage persistence. 
+            Add, edit, complete, and delete tasks with a clean, user-friendly interface.
           </h4>
         </div>
         <div class="modal-footer">
@@ -666,7 +668,7 @@ My focus is building modern systems with features like authentication/authorizat
           </button>
         </div>
         <div class="modal-body">
-          <img src="img/fizzbuzz-ss.png" class="img-fluid modal-img" alt="FizzBuzz screenshot">
+          <img src="/img/fizzbuzz-ss.png" class="img-fluid modal-img" alt="FizzBuzz screenshot">
           <h4>Fizz buzz is a group word game where players take turns to count
             incrementally, replacing any number divisible by three with the word "Fizz!", and any number divisible by
             five with the word "Buzz!", and any number is both divisible by five and three with the word "FizzBuzz!!".
@@ -693,13 +695,13 @@ My focus is building modern systems with features like authentication/authorizat
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalCenterTitle">TacocaT</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle">TACOCAT</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <img src="img/tacocat-ss.png" class="img-fluid modal-img" alt="Tacocat screenshot">
+          <img src="/img/of_bugs_and_devs.png" class="img-fluid modal-img" alt="TACOCAT screenshot">
           <h4>The TACOCAT coding challenge is based on the more traditional “reverse a string” exercise, but
             ultimately
             determines if a word or phrase is a palindrome.
@@ -715,7 +717,7 @@ My focus is building modern systems with features like authentication/authorizat
               Close
             </a>
           </button>
-          <a class="btn btn-primary" href="https://tacocat-jsapp.netlify.app/" target="_blank" role="button">
+          <a class="btn btn-primary" href="https://ofbugsanddevs-d5enescpgdesf9aj.centralus-01.azurewebsites.net" target="_blank" role="button">
             Go To The App
           </a>
         </div>
